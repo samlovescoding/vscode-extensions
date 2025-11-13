@@ -1,0 +1,131 @@
+{
+  "workbench.colorTheme": "Oceans of Andromeda",
+  "workbench.startupEditor": "none",
+  "editor.fontFamily": "Fira Code",
+  "window.title": "${dirty}${rootName}/${activeEditorMedium}",
+  "workbench.iconTheme": "material-icon-theme",
+  "files.associations": {
+    "*.css": "tailwindcss",
+    ".php_cs": "php",
+    ".php_cs.dist": "php"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.copyWithSyntaxHighlighting": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.editor.enablePreview": false,
+  "window.newWindowDimensions": "inherit",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "files.trimTrailingWhitespace": true,
+  "editor.snippetSuggestions": "top",
+  "editor.detectIndentation": false,
+  "window.nativeFullScreen": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "workbench.activityBar.location": "hidden",
+  "workbench.sideBar.location": "right",
+  "editor.guides.indentation": false,
+  "editor.minimap.enabled": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.decorations.badges": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "terminal.integrated.allowChords": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonl]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeLens": false,
+  "scm.diffDecorations": "none",
+  "editor.hover.enabled": false,
+  "editor.matchBrackets": "never",
+  "workbench.tips.enabled": false,
+  "editor.colorDecorators": false,
+  "git.decorations.enabled": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.selectionHighlight": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "problems.decorations.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.suggestFontSize": 15,
+  "editor.suggestLineHeight": 28,
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.lineHeight": 1.5,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 24,
+  "workbench.editor.showTabs": "multiple",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "emmet.includeLanguages": {
+    "blade": "html",
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "php.suggest.basic": false,
+  "php-cs-fixer.onsave": true,
+  "php-cs-fixer.showOutput": false,
+  "php-cs-fixer.autoFixByBracket": false,
+  "php-cs-fixer.rules": "@PSR2",
+  "window.titleBarStyle": "custom",
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "terminal.integrated.tabs.enabled": false,
+  "bladeFormatter.format.wrapAttributes": "force-expand-multiline",
+  "bladeFormatter.misc.dontShowNewVersionMessage": true,
+  "bladeFormatter.format.indentSize": 2,
+  "cursor.chat.terminalShowHoverHint": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.lineNumbers": "on",
+  "breadcrumbs.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "redhat.telemetry.enabled": true,
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "editor.accessibilitySupport": "off",
+  "workbench.statusBar.visible": false,
+  "chat.commandCenter.enabled": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
+}

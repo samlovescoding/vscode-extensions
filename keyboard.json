@@ -1,0 +1,446 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+i",
+    "command": "composerMode.agent"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+shift+u",
+    "command": "editor.action.transformToUppercase",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.transformToLowercase",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.action.findInFiles",
+    "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+4",
+    "command": "workbench.view.extensions",
+    "when": "viewContainer.workbench.view.extensions.enabled"
+  },
+
+  /// Make VS Code Awesome
+  {
+    "key": "cmd+k cmd+e",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "cmd+k cmd+f",
+    "command": "workbench.action.findInFiles"
+  },
+  {
+    "key": "cmd+k cmd+d",
+    "command": "workbench.view.debug"
+  },
+  {
+    "key": "cmd+k cmd+g",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "cmd+k cmd+x",
+    "command": "workbench.view.extensions"
+  },
+  {
+    "key": "cmd+k cmd+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "cmd+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "cmd+shift+t",
+    "command": "workbench.action.terminal.newInActiveWorkspace"
+  },
+  {
+    "key": "cmd+shift+`",
+    "command": "workbench.action.terminal.newInActiveWorkspace"
+  },
+  {
+    "key": "alt+cmd+t",
+    "command": "workbench.action.terminal.killActiveTab"
+  },
+  {
+    "key": "alt+cmd+`",
+    "command": "workbench.action.terminal.killActiveTab"
+  },
+  {
+    "key": "alt+cmd+ctrl+t",
+    "command": "workbench.action.terminal.killAll"
+  },
+  {
+    "key": "alt+cmd+ctrl+`",
+    "command": "workbench.action.terminal.killAll"
+  },
+
+  // File Explorer
+  {
+    "key": "cmd+d",
+    "command": "duplicate.execute",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "cmd+k cmd+d",
+    "command": "duplicate.execute"
+  },
+  {
+    "key": "cmd+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "cmd+shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "cmd+r",
+    "command": "workbench.files.action.refreshFilesExplorer",
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+  },
+
+  // Toggles
+  {
+    "key": "ctrl+k ctrl+k",
+    "command": "toggle",
+    "when": "editorTextFocus",
+    "args": {
+      "id": "fontSize",
+      "value": [
+        {
+          "editor.fontSize": 32,
+          "editor.lineHeight": 48
+        },
+        {
+          "editor.fontSize": 24,
+          "editor.lineHeight": 32
+        },
+        {
+          "editor.fontSize": 18,
+          "editor.lineHeight": 24
+        },
+        {
+          "editor.fontSize": 14,
+          "editor.lineHeight": 20
+        }
+      ]
+    }
+  },
+  {
+    "key": "ctrl+k ctrl+f",
+    "command": "toggle",
+    "when": "editorTextFocus",
+    "args": {
+      "id": "fontFamily",
+      "value": [
+        {
+          "editor.fontFamily": "Fira Code"
+        },
+        {
+          "editor.fontFamily": "MonoLisa"
+        },
+        {
+          "editor.fontFamily": "SpaceMono Nerd Font Mono"
+        },
+        {
+          "editor.fontFamily": "Cascadia Mono"
+        },
+        {
+          "editor.fontFamily": "ZedMono Nerd Font Mono"
+        },
+        {
+          "editor.fontFamily": "Operator Mono Lig"
+        },
+
+        {
+          "editor.fontFamily": "JetBrains Mono NL"
+        }
+      ]
+    }
+  },
+  {
+    "key": "ctrl+k ctrl+l",
+    "command": "toggle",
+    "when": "editorTextFocus",
+    "args": {
+      "id": "tabs",
+      "value": [
+        {
+          "workbench.editor.showTabs": "none"
+        },
+        {
+          "workbench.editor.showTabs": "multiple"
+        }
+      ]
+    }
+  },
+  {
+    "key": "ctrl+k ctrl+;",
+    "command": "toggle",
+    "when": "editorTextFocus",
+    "args": {
+      "id": "tabs",
+      "value": [
+        {
+          "editor.lineNumbers": "off"
+        },
+        {
+          "editor.lineNumbers": "on"
+        },
+        {
+          "editor.lineNumbers": "relative"
+        }
+      ]
+    }
+  },
+
+  // //   "editor.lineNumbers": "off",
+
+  // Fold/Unfold
+  {
+    "key": "shift+cmd+[",
+    "command": "editor.fold",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "editor.unfold",
+    "when": "editorFocus"
+  },
+
+  // Line Manipulation
+  //   {
+  //     "key": "cmd+l",
+  //     "command": "editor.action.copyLinesDownAction",
+  //     "when": "editorTextFocus"
+  //   },
+  {
+    "key": "cmd+j",
+    "command": "editor.action.joinLines",
+    "when": "editorTextFocus"
+  },
+
+  // Multi Cursor
+  {
+    "key": "cmd+backspace",
+    "command": "editor.action.moveSelectionToPreviousFindMatch",
+    "when": "editorFocus && editorHasMultipleSelections"
+  },
+  {
+    "key": "ctrl+k ctrl+d",
+    "command": "editor.action.moveSelectionToNextFindMatch",
+    "when": "editorFocus && editorHasMultipleSelections"
+  },
+  {
+    "key": "cmd+right",
+    "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+    "when": "editorFocus && editorHasSelection"
+  },
+
+  // Emmet
+  {
+    "key": "cmd+m cmd+i",
+    "command": "editor.emmet.action.balanceIn",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+m cmd+o",
+    "command": "editor.emmet.action.balanceOut",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+m cmd+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+m cmd+m",
+    "command": "editor.emmet.action.matchTag",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+m cmd+e",
+    "command": "editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+m cmd+r",
+    "command": "editor.emmet.action.updateTag",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+m cmd+backspace",
+    "command": "editor.emmet.action.removeTag",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "alt+right",
+    "command": "cursorLineEnd"
+  },
+  {
+    "key": "alt+left",
+    "command": "cursorHome"
+  },
+  {
+    "key": "alt+shift+right",
+    "command": "cursorLineEndSelect"
+  },
+  {
+    "key": "alt+shift+left",
+    "command": "cursorHomeSelect"
+  },
+
+  /**
+   * Split Panels
+   **/
+  {
+    "key": "alt+w",
+    "command": "workbench.action.joinAllGroups",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+n",
+    "command": "workbench.action.splitEditor",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+l",
+    "command": "workbench.action.navigateRight",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+h",
+    "command": "workbench.action.navigateLeft",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+=",
+    "command": "workbench.action.increaseViewSize",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+-",
+    "command": "workbench.action.decreaseViewSize",
+    "when": "editorFocus"
+  },
+
+  /**
+   * Terminal Split Panel
+   **/
+  {
+    "key": "alt+n",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+l",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+h",
+    "command": "workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+
+  /**
+   * IntelliSense
+   **/
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "cmd+shift+r",
+    "command": "workbench.action.showAllSymbols"
+  },
+  {
+    "key": "cmd+k cmd+enter",
+    "command": "editor.action.goToDeclaration",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k cmd+i",
+    "command": "namespaceResolver.import"
+  },
+
+  /**
+   * Project Switching
+   **/
+  //   {
+  //     "key": "cmd+;",
+  //     "command": "workbench.action.switchWindow",
+  //     "when": "! config.simple-project-switcher.present"
+  //   },
+  //   {
+  //     "key": "alt+cmd+right",
+  //     "command": "workbench.action.showNextWindowTab"
+  //   },
+  //   {
+  //     "key": "alt+cmd+left",
+  //     "command": "workbench.action.showPreviousWindowTab"
+  //   },
+
+  /**
+   * Open DevTools
+   **/
+  {
+    "key": "alt+cmd+i",
+    "command": "workbench.action.toggleDevTools"
+  },
+
+  /**
+   * Hide Toaster Notifications
+   **/
+  {
+    "key": "escape",
+    "command": "notifications.hideToasts",
+    "when": "notificationToastsVisible"
+  }
+]
